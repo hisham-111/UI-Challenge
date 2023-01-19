@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<Hhtml lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>UI</title>
+  </head>
+  <body>
+    <section class="sec">
+      <!-- Start Video -->
+      <div class="video">
+        <video autoplay muted loop>
+          <source src="imgs/production ID_4272751.mp4" type="video/mp4" />
+        </video>
+        <!-- <div class="text">
+            <h2>Super Awesome Video Here</h2>
+            <p>Its All You Need</p>
+            <button>See More</button>
+          </div> -->
+      </div>
+      <!-- End Video -->
+
+      <header>
+        <a href="#"><img src="imgs/SquareArt.png" class="logo" alt="" /></a>
+        <ul>
+          <li><a class="btn" href="#">ARTWORKS</a></li>
+          <li><a class="btn" href="#">ARTIST</a></li>
+          <li><a class="btn" href="#">SHOWS</a></li>
+          <li><a class="btn" href="#">MAGAZIN</a></li>
+          <li><a class="btn" href="#">MORE</a></li>
+        </ul>
+      </header>
+
+      <div class="content">
+        <div class="textBox">
+          <h2>
+            Arts <br />
+            <span>Are Life</span>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            quae excepturi modi esse totam accusamus, eius aspernatur voluptatem
+            animi veritatis, illo qui minus dolore facilis, porro error dicta
+            molestias incidunt! Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Vel omnis ducimus repellendus, dolor tempore harum
+            similique? Sint explicabo modi.
+          </p>
+          <a href="#">View All ARTWORKS</a>
+        </div>
+
+        <div class="imgBox dots-container">
+          <img src="imgs/first001.jpg" class="art" />
+
+          <div class="dots-container">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+            <span class="dot" data-slide="3"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div>
+  <!-- <h2>Image slider</h2> -->
+      <!-- <div class="slider">
+    <div class="slide">
+          <img src="imgs/first001.jpg" alt="Photo1"/>
+      </div>
+    <div class="slide">
+          <img src="imgs/first002.png" alt="Photo3"/>
+      </div> 
+    <div class="slide">
+          <img src="imgs/first003.jpg" alt="Photo2"/>
+      </div>
+    <div class="slide">
+          <img src="imgs/first004.jpg" alt="Photo3"/>
+      </div> 
+
+      <div class="slide">
+        <img src="imgs/first005.jpg" alt="Photo3"/>
+    </div> 
+
+    <div class="slide">
+      <img src="imgs/first006.jpg" alt="Photo3"/>
+  </div> 
+
+  <div class="slide">
+    <img src="imgs/first007.jpg" alt="Photo3"/>
+</div> 
+
+      <button class="btn-slide prev"><i class="fas fa-3x fa-chevron-circle-left"></i></button>
+      <button class="btn-slide next"><i class="fas fa-3x fa-chevron-circle-right"></i></button>
+    
+  </div>
+  <div class="dots-container">
+          <span class="dot active" data-slide="0"></span>
+          <span class="dot" data-slide="1"></span>
+          <span class="dot" data-slide="2"></span>
+    <span class="dot" data-slide="3"></span>
+  </div>
+</div>  -->
+
+      <ul class="thumb">
+        <li>
+          <img
+            src="imgs/first001.jpg"
+            onclick="imgSlider('imgs/first001.jpg'); changeBgColor('#562B08')" />
+        </li>
+        <li>
+          <img
+            src="imgs/first002.png"
+            onclick="imgSlider('imgs/first002.png'); changeBgColor('#e60c2c')" />
+        </li>
+        <li>
+          <img
+            src="imgs/first003.jpg"
+            onclick="imgSlider('imgs/first003.jpg'); changeBgColor('#1e1e1e')" />
+        </li>
+        <li>
+          <img
+            src="imgs/first004.jpg"
+            onclick="imgSlider('imgs/first004.jpg'); changeBgColor('#647E68')" />
+        </li>
+
+        <li>
+          <img
+            src="imgs/first005.jpg"
+            onclick="imgSlider('imgs/first005.jpg'); changeBgColor('#541212')" />
+        </li>
+
+        <li>
+          <img
+            src="imgs/first006.jpg"
+            onclick="imgSlider('imgs/first006.jpg'); changeBgColor('#461111')" />
+        </li>
+
+        <li>
+          <img
+            src="imgs/first007.jpg"
+            onclick="imgSlider('imgs/first007.jpg'); changeBgColor('#3D0000')" />
+        </li>
+      </ul>
+
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="imgs/facebook.png" alt="icon" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="imgs/instagram.png" alt="icon" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="imgs/twitter.png" alt="icon" /></a>
+        </li>
+      </ul>
+
+      <script src="index.js"></script>
+    </section>
+  </body>
+</Hhtml>
